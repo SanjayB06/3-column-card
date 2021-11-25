@@ -92,6 +92,7 @@ img {
 @media (min-width:700px) {
     .container {
         display: flex;
+        width: 60%;
     }
     .car {
         width: 33%;
