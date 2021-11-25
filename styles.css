@@ -1,0 +1,68 @@
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+*,*::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+img {
+    width: 100%;
+}
+.car {
+    color: hsl(0, 0%, 95%);
+    padding: 3em;
+}
+.car img {
+    width: 30%;
+    margin-bottom: 20px
+}
+
+.car h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+.car p {
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: "Lexend Deca",sans-serif;
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+.sedan .button {
+    color: hsl(31, 77%, 52%)
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+.suv .button {
+    color: hsl(184, 100%, 22%)
+}
+
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+.luxury .button {
+    color: hsl(179, 100%, 13%)
+}
+
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    padding: .5em 1em;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Lexend Deca",sans-serif;
+    font-size: 13px;
+}
